@@ -1,0 +1,35 @@
+id: mcp-trendpulse
+name: TrendPulse - Google News & Google Trends MCP
+description: >
+  Open-source local MCP server for keyword, market, SEO, trend, and news research.
+  TrendPulse exposes 16 read-only tools for Google Trends interest over time, trending
+  terms, growth, geographic interest, related queries and topics, autocomplete
+  suggestions, Google News discovery by keyword, location, topic or publisher, and
+  bounded article parsing. The Community MCP runs locally over stdio from the published
+  PyPI package with uvx and requires no API keys for its standard providers.
+author:
+  name: Tomi Seregi
+  github: AKzar1el
+repository: https://github.com/AKzar1el/mcp-trendpulse
+transport:
+  - stdio
+category: Research
+tags:
+  - google-trends
+  - google-news
+  - keyword-research
+  - market-research
+  - seo
+  - trend-analysis
+  - news-research
+  - search-interest
+created_at: "2026-07-07T23:08:23.000Z"
+updated_at: "2026-09-21T05:05:00.000Z"
+install:
+  command: uvx
+  args:
+    - "mcp-trendpulse"
+env_vars: []
+license: MIT
+version: "0.2.25"
+stars: 5
