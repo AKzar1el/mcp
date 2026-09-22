@@ -23,7 +23,7 @@ tags:
   - codex
   - gemini-cli
 created_at: "2026-09-21T22:10:36.000Z"
-updated_at: "2026-09-22T00:24:40.000Z"
+updated_at: "2026-09-22T04:31:28.655Z"
 tools:
   - name: nofax_notify
     description: Send a one-way phone notification without creating a human-response wait.
@@ -127,4 +127,4 @@ install:
     - nofax
     - mcp
 license: MIT
-version: "0.2.4"
+version: "0.2.5"
